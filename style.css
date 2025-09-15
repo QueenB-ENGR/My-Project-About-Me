@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  color: #333;
+}
+
+/* Container */
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Top Section Layout */
+.top-section {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+/* Profile Circle */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 3px solid #888;
+}
+
+/* Intro Text */
+.intro-text h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.intro-text p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Bottom Section Layout */
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Boxes */
+.box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.box h3 {
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.box p {
+  line-height: 1.5;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .top-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .profile-pic {
+    margin: 0 auto;
+  }
+
+  .bottom-section {
+    grid-template-columns: 1fr;
+  }
+}
