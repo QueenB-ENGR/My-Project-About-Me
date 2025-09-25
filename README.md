@@ -1,1 +1,1 @@
-# ASSIGNMENT-2-CSS Short Discription about Myself
+# ASSIGNMENT-2-CSS Short Description about Myself
